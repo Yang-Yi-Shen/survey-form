@@ -8,14 +8,14 @@
         <h1 id="title">General Information Survey Form</h1>
         <p id="description">Help me gather some information on you by filling out this survey form.</p>
         <form id="survey-form">
-            <label id="name-label" for="name">Name</label>
+            <label id="name-label" for="name"><h2>Name</h2></label>
             <input id="name" type="text" placeholder="Your name here" required>
-            <label id="email-label" for="email">Email</label>
+            <label id="email-label" for="email"><h2>Email</h2></label>
             <input id="email" type="email" placeholder="Your email here" required>
             <!--remember to make number input wide as other inputs-->
-            <label id="number-label" for="number">Age</label>
+            <label id="number-label" for="number"><h2>Age</h2></label>
             <input id="number" type="number" min="0" max="99" placeholder="Your age here">
-            <label for="dropdown">What is your main hobby?</label>
+            <label for="dropdown"><h2>What is your main hobby?</h2></label>
 
             <select id="dropdown">
                 <option>Programming</option>
@@ -23,7 +23,7 @@
                 <option>I have no life</option>
             </select>
 
-            <label for="radios">Do you play Minecraft?</label>
+            <label for="radios"><h2>Do you play minecraft?</h2></label>
             <div id="radios">
                 <div class="set">
                     <input type="radio" name="mc" value="no">
@@ -35,24 +35,24 @@
                 </div>
             </div>
 
-            <label for="checkboxes">Which of the following manly activities do you partake of?</label>
+            <label for="checkboxes"><h2>Which of the following manly activities do you partake of?</h2></label>
             <div id="checkboxes">
                 <div class="set">
-                    <input id="coldshower" type="checkbox" value="">
-                    <label for="coldshower" class="checkbox-labels" value="coldshower">Swimming in a frozen lake every morning</label>
+                    <input id="coldshower" type="checkbox" value="coldshower">
+                    <label for="coldshower" class="checkbox-labels">Swimming in a frozen lake every morning</label>
                 </div>
                 <div class="set">
-                    <input id="bear" type="checkbox" value="">
-                    <label for="bear" class="checkbox-labels" value="bear">Strangling bears with your bare hands</label>
+                    <input id="bear" type="checkbox" value="bear">
+                    <label for="bear" class="checkbox-labels">Strangling bears with your bare hands</label>
                 </div>
                 <div class="set">
-                    <input id="lumberjack" type="checkbox" value="">
-                    <label for="lumberjack" class="checkbox-labels" value="lumberjack">Chopping trees while wearing a lumberjack shirt</label>
+                    <input id="lumberjack" type="checkbox" value="lumberjack">
+                    <label for="lumberjack" class="checkbox-labels">Chopping trees while wearing a lumberjack shirt</label>
                 </div class="set">
             </div>
-            <label for="textarea">If you have anything else you'd like to tell us, please enter it here</label>
-            <textarea id="textarea" placeholder="Extra info..."></textarea>
-            <button id=submit type="submit">Submit</button>
+            <label for="textarea"><h2>Is there anything else you'd like to tell us?</h2></label>
+            <textarea id="textarea" placeholder="Is there?"></textarea>
+            <button id=submit type="submit"><h3>Submit</h3></button>
         </form>
     </body>
 </html>
